@@ -5,10 +5,10 @@ gem 'devise'
 gem 'devise_invitable'
 #gem 'devise-encryptable'
 
-gem "ffi-proj4", :git => 'git://github.com/dryade/ffi-proj4.git'
+gem "ffi-proj4", :git => 'https://github.com/dryade/ffi-proj4.git'
 
 platforms :jruby do
-  gem 'activerecord-jdbcpostgresql-adapter', :git => 'git://github.com/dryade/activerecord-jdbc-adapter.git'
+  gem 'activerecord-jdbcpostgresql-adapter', :git => 'https://github.com/dryade/activerecord-jdbc-adapter.git'
   gem 'activerecord-jdbcsqlite3-adapter'
   gem 'jruby-openssl'
   gem "jruby-rack-worker"
@@ -21,9 +21,9 @@ platforms :ruby do
 end
 
 gem "map_layers", "~> 0.0.4"
-gem "georuby-ext", :git => 'git://github.com/dryade/georuby-ext.git'
+gem "georuby-ext", :git => 'https://github.com/dryade/georuby-ext.git'
 
-gem 'user_interface', :git => 'git://github.com/dryade/user-interface.git'
+gem 'user_interface', :git => 'https://github.com/dryade/user-interface.git'
 #gem 'user_interface', :git => 'git://sim.dryade.priv/user_interface' #, :path => '~/Projects/UserInterfaceDryade'
 gem 'json'
 gem 'cocoon'
@@ -36,18 +36,18 @@ gem 'RedCloth'
 gem 'jquery-rails'
 gem "modernizr-rails", "~> 2.0.6"
 gem 'gravatar_image_tag'
-gem 'calendar_helper', :git => "git://github.com/topfunky/calendar_helper.git"
+gem 'calendar_helper', :git => "https://github.com/topfunky/calendar_helper.git"
 
-gem "acts_as_tree", :git => "git://github.com/dryade/acts_as_tree.git"
-gem 'ninoxe', :git => 'git://github.com/dryade/ninoxe.git'
-#gem 'ninoxe', :git => 'git://github.com/dryade/ninoxe.git', :branch => 'V2_0_0'
+gem "acts_as_tree", :git => "https://github.com/dryade/acts_as_tree.git"
+gem 'ninoxe', :git => 'https://github.com/dryade/ninoxe.git'
+#gem 'ninoxe', :git => 'https://github.com/dryade/ninoxe.git', :branch => 'V2_0_0'
 #gem 'ninoxe', :git => 'git://chouette.dryade.priv/ninoxe' #, :path => '~/Projects/Ninoxe'
 #gem 'ninoxe', :path => '~/workspace/chouette/ninoxe'
 gem 'acts_as_list', '0.1.6'
 
 #gem 'composite_primary_keys', '~> 5.0.8'
 gem 'delayed_job_active_record'
-gem 'apartment',:git => 'git://github.com/dryade/apartment.git'
+gem 'apartment',:git => 'https://github.com/dryade/apartment.git'
 
 # some views use coffee script
 gem 'coffee-rails', '~> 3.2.1'
@@ -81,7 +81,7 @@ end
 group :test do
   gem 'capybara'     
   gem 'launchy'
-  gem 'database_cleaner', :git => 'git://github.com/dnagir/database_cleaner.git', :branch => 'postgre_jruby_issue'
+  gem 'database_cleaner', :git => 'https://github.com/dnagir/database_cleaner.git', :branch => 'postgre_jruby_issue'
   gem 'factory_girl_rails', '1.7'
 end
 
