@@ -32,7 +32,7 @@ The fact that you are presently reading this means that you have had knowledge o
 
 h1. Notes de version
 
-h2. V2.0.1 
+h2. V2.0.1 17/01/2013
 
 * Ajout de la gestion des groupes de lignes
 * Ajout de la gestion des accès et des relations arrêts-accès
